@@ -8,9 +8,13 @@
  */
 
 #import <UIKit/UIKit.h>
+#import "PorxyNavigationController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (nonatomic, strong) UIWindow *window;
+
+//@property (nonatomic, strong) UINavigationController *nav;
+@property (nonatomic, retain) PorxyNavigationController *navViewController;
 
 @end
